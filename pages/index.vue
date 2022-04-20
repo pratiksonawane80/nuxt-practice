@@ -55,25 +55,12 @@ export default {
 </script>
 
 <style>
-/* .table {
-  border: 1px solid;
-  margin: auto;
-}
-
-table td {
-  align-content: center;
-  padding: 10px;
-  font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-} */
-
 table { 
 	width: 750px; 
 	border-collapse: collapse; 
 	margin:50px auto;
 	}
 
-/* Zebra striping */
 tr:nth-of-type(odd) { 
 	background: #eee; 
 	}
@@ -91,11 +78,6 @@ td, th {
 	font-size: 18px;
 	}
 
-/* 
-Max width before this PARTICULAR table gets nasty
-This query will take effect for any screen smaller than 760px
-and also iPads specifically.
-*/
 @media 
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
@@ -121,7 +103,7 @@ only screen and (max-width: 760px),
 }
 
 .header {
-  width: 4rem;
+  width: x;
   margin: auto;
 }
 
@@ -133,3 +115,4 @@ only screen and (max-width: 760px),
   background: #fff;
 }
 </style>
+  

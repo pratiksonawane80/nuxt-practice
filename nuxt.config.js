@@ -1,14 +1,4 @@
 export default {
-  loading: {
-    color: 'blue',
-    height: '5px',
-    duration: 10000,
-  },
-  loadingIndicator: {
-    name: 'round',
-    color: '##99999',
-    background: 'white'
-  },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
